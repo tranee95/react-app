@@ -10,10 +10,6 @@ import Catalog from "./pages/Catalog.js";
 import Card from "./pages/Card.js";
 
 class App extends Component {
-  constructor(props) {
-      super(props)        
-  }
-
   render() {
       return (
           <Router>

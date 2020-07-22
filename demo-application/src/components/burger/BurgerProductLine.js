@@ -1,12 +1,7 @@
 import React, { Component } from "react";
-import Burger from "./Burger";
 import LineCard from "../dropDownMenu/js/LineCard.js";
 
 class BurgerProductLine extends Component {
-    constructor(props) {
-        super(props)
-    }
-
     render() {
         return (
             <div className="header__dropdown-content-product">
