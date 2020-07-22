@@ -1,0 +1,43 @@
+.basket {
+    position: absolute;
+    top: 45%;
+    right: -7%;
+}
+
+
+@media screen and (max-width: 1440px) and (min-width: 1200px) {
+    .basket {
+        top: 62px;
+        right: -85px;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .basket {
+        top: 62px;
+        right: -65px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .basket {
+        top: 50%;
+        right: -4%;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 425px) {
+    .header-border .basket {
+        top: 45%;
+        right: 20%;
+    }
+}
+
+@media screen and (max-width: 424px) and (min-width: 375px) {
+    .header-border .basket {
+        top: 45%;
+        right: 15%;
+    }
+}
+
+

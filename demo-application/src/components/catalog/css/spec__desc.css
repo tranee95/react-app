@@ -1,0 +1,29 @@
+.spec__desc {
+color: #202020;
+font-family: "TTFirsNeue-Regular";
+font-size: 14px;
+font-weight: 400;
+line-height: 17.21px;
+letter-spacing: 0.46px;
+text-align: center;
+margin-top: 11px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .spec__desc {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .spec__desc {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 424px) and (min-width: 375px) {
+    .catalog__line-product .spec__desc {
+        font-size: 10px;
+        line-height: 15.21px;
+    }
+}

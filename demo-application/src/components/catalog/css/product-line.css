@@ -1,0 +1,8 @@
+.product-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 75px;
+    width: 471px;
+}

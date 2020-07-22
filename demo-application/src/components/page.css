@@ -1,0 +1,30 @@
+.page {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+body {
+    background-image: url("../images/fullFon.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}

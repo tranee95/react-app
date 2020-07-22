@@ -1,0 +1,5 @@
+.main {
+    background-size: cover;
+    overflow: hidden;
+    border-top: rgba(0, 0, 0, 0.4) 1px solid; 
+}

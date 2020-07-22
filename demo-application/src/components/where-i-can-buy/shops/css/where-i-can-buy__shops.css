@@ -1,0 +1,9 @@
+.where-i-can-buy__shops {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 34px;
+    max-width: 1920px;
+    height: 612px;
+    margin-bottom: 202px;
+}

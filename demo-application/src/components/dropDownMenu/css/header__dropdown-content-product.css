@@ -1,0 +1,35 @@
+.header__dropdown-content-product {
+    height: 301px;
+    display: inline-block;
+}
+
+.header__dropdown-content-product ul {
+    padding-left: 20px;
+}
+
+.header__dropdown-ul {
+    height: 310px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0;
+}
+
+.header__dropdown-ul ul {
+    margin-top: 0;
+    padding-top: 25px;
+}
+
+.header__dropdown-ul li:first-child a {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 767px) and (min-width: 425px) {
+    .bm-item .header__dropdown-content-product {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 424px) and (min-width: 375px) {
+    
+}

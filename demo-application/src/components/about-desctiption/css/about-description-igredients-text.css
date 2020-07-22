@@ -1,0 +1,28 @@
+.about-description-igredients-text {
+    width: 1270px;
+    height: 75px;
+    color: #3c3c3c;
+    font-family: "TTFirsNeue-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.47px;
+    text-align: justify;
+    margin-top: 35px;
+    margin-bottom: 67px;
+    white-space: pre-wrap;
+    width: 80%;
+
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 425px) {
+    .about-description-igredients-text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 424px) and (min-width: 375px) {
+    .about-description-igredients-text {
+        font-size: 18px;
+    }
+}
